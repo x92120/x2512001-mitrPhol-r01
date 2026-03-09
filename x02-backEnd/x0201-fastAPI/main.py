@@ -43,7 +43,8 @@ from routers import (
     translations_router,
     stock_adjustments_router,
     reports_router,
-    db_sync_router
+    db_sync_router,
+    server_station_router
 )
 
 # =============================================================================
@@ -94,7 +95,8 @@ all_routers = [
     views_router, warehouses_router, translations_router,
     stock_adjustments_router,
     reports_router,
-    db_sync_router
+    db_sync_router,
+    server_station_router
 ]
 
 for router in all_routers:
